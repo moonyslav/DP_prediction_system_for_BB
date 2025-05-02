@@ -1,0 +1,6 @@
+model_path=C:\diplomka_work\python_code\data_pickles\LGBM\saved_model.pkl
+features_path=C:\diplomka_work\python_code\data_pickles\LGBM\uložene_feature.pkl
+encoder_path=C:\diplomka_work\python_code\data_pickles\LGBM\label_encoder.pkl
+data_path=C:\diplomka_work\data\F03\F03.csv
+predicted_output_path=C:\diplomka_work\python_code\data_pickles\predicted_labels_output.txt
+
