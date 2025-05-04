@@ -301,6 +301,14 @@ predicted_labels = encoder.inverse_transform(final_order_predict)
 print("Predikované kategórie:", predicted_labels)
 
 
+predicted_output_file = params['predicted_output_path']
+
+with open(predicted_output_file, 'w', encoding='utf-8') as f:
+    for label in predicted_labels:
+        f.write(f"{label}\n")
+
+print(f"Predikcie uložené do {predicted_output_file}")
+
 
 
 
